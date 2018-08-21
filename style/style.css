@@ -57,6 +57,29 @@ ul {
     margin-bottom: 10px;
 }
 
+.card-header p {
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0;
+}
+
+.no-bs .card {
+    border: 0;
+}
+
+.no-bs .card-header {
+    background-color: #fff;
+    padding: 16px 0;
+}
+
+.no-bs .card-body {
+    padding: 20px 0;
+}
+
+.page-right .section {
+    margin-bottom: 40px;
+}
+
 
 @media (min-width: 768px) {
     .no-bs .page-container {
@@ -79,8 +102,9 @@ ul {
         line-height: 46px;
     }
 
-    .page-left {
+    .no-bs .page-left {
         float: left;
+        padding-right: 100px;
     }
 
     .page-right {

@@ -11,15 +11,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style/style.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
     </head>
     <body class="no-bs">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="container-fluid page-container">
-            <div class="page-left col-lg-4">
+            <div class="page-left col-lg-6">
                 <div class="main-info">
                     <p class="headline">Answers to all of your questions.</p>
                     <p class="featured">Find helpful resources and answers to common questions.</p>
@@ -38,11 +39,180 @@
                     </ul>
                 </div>
             </div>
-            <div class="page-right col-lg-8">
+            <div class="page-right col-lg-6">
+
                 <div class="section">
                     <p class="subheadline">MediaWorks Overview & Services</p>
-                </div>
-            </div>
-        </div>
+                    <div class="accordion" id="accordion1">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <p data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Who manages the Mediaworks site and it’s content?
+                                </p>
+                            </div>
+                        
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion1">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <p data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    How do I add or update a new asset on MediaWorks?
+                                </p>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <p data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    What is MediaWorks used for?
+                                </p>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div> 
+                    </div> <!-- Accordion -->
+                </div> <!-- Section -->
+
+                <div class="section">
+                    <p class="subheadline">Managing Your Account</p>
+                    <div class="accordion" id="accordion2">
+                        <div class="card">
+                            <div class="card-header" id="heading4">
+                                <p data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                    Viewing your saved templates
+                                </p>
+                            </div>
+                        
+                            <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion2">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading5">
+                                <p data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                    How to view your order history
+                                </p>
+                            </div>
+                            <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion2">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading6">
+                                <p data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                    Update email preferences
+                                </p>
+                            </div>
+                            <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion2">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div> 
+                    </div> <!-- Accordion -->
+                </div> <!-- Section -->
+
+                <div class="section">
+                    <p class="subheadline">MediaWorks Orders</p>
+                    <div class="accordion" id="accordion3">
+                        <div class="card">
+                            <div class="card-header" id="heading7">
+                                <p data-toggle="collapse" data-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                    What is the status of my order?
+                                </p>
+                            </div>
+                        
+                            <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion3">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading8">
+                                <p data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                    How do I update, expedite, or cancel my order.
+                                </p>
+                            </div>
+                            <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordion3">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading9">
+                                <p data-toggle="collapse" data-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                    I need to reorder a product.
+                                </p>
+                            </div>
+                            <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordion3">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div> 
+                    </div> <!-- Accordion -->
+                </div> <!-- Section -->
+
+                <div class="section">
+                    <p class="subheadline">Using MediaWorks Templates</p>
+                    <div class="accordion" id="accordion4">
+                        <div class="card">
+                            <div class="card-header" id="heading10">
+                                <p data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                                    How do I customize a template?
+                                </p>
+                            </div>
+                        
+                            <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordion4">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading11">
+                                <p data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    There is an error on a template.
+                                </p>
+                            </div>
+                            <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordion4">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading12">
+                                <p data-toggle="collapse" data-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                                    Can I save my template and finish later?
+                                </p>
+                            </div>
+                            <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordion4">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                            </div>
+                        </div> 
+                    </div> <!-- Accordion -->
+                </div> <!-- Section -->
+            </div> <!-- Page Right -->
+        </div> <!-- Page Container -->
     </body>
 </html>
