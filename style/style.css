@@ -11,6 +11,18 @@ ul {
     padding-left: 0;
 }
 
+.no-bs a  {
+    color: #001641;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+.no-bs a:hover {
+    color: #001641;
+    opacity: .6;
+    text-decoration: none;
+}
+
 .headline,
 .subheadline {
     color: #001641;
