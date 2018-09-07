@@ -112,6 +112,12 @@ ul {
     .card .fas {
         padding-right: 40px;
     }
+
+    .main-info .btn:hover {
+        background-color: #001641;
+        color: #fff;
+        opacity: 1;
+    }
 }
 
 @media (min-width: 992px) {
